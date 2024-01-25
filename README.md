@@ -11,7 +11,12 @@ Let's break it down:
 
 * In simpler terms, BERT is essentially a language detective. It doesn't just look at words—it delves into the hidden depths of language to understand the meaning behind words based on their context.
 
+### BERT Pre-Training
+
 ![](images/MLM.webp)
+![](images/NSP.webp)
+![](images/pre-training.webp)
+![](images/finetuning.png)
 
 
 ### 2. How BERT works: A simplified explanation
