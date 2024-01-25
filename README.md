@@ -24,3 +24,17 @@ Now that you have a basic understanding of what BERT is, let's dive a bit deeper
 *  Output: After going through all the layers, BERT produces a vector for each token that represents that token's context within the sentence.
 
 To put it in a nutshell, BERT works by breaking down sentences, weighing the importance of each word in relation to the others, and using those weights to better understand the sentence as a whole. It's like a symphony conductor making sure every instrument plays its part in harmony with the rest. So, if you want your NLP model to have a keen ear for context, BERT might be the maestro you need.
+
+
+### 3. Practical tips for using BERT
+Moving on from the theory, let's get down to business. How do you actually use BERT in real life? Here are some practical tips that will help you get started and make the most of this powerful tool.
+
+* Use Pre-trained Models: One of the biggest advantages of BERT is that it comes with a set of pre-trained models. So, you don't have to start from scratch. These models have been trained on a vast amount of text data and can be fine-tuned to suit your specific needs. It's like getting a leg up from BERT itself!
+
+* Fine-tune with Care: When fine-tuning your BERT model, remember, it's a delicate balance. You want to adjust the model to suit your specific task, but over-tuning can lead to poor performance. It's like cooking—too much spice can ruin the dish.
+
+* Take Advantage of BERT's Context Understanding: Remember that BERT's superpower is understanding the context of words. So, design your NLP tasks in a way that leverages this strength. For instance, BERT is great for tasks like question answering or sentiment analysis where context is key.
+
+* Experiment with Different Versions: BERT comes in different versions—base, large, and even multilingual. Each version has its strengths and weaknesses. So, don't be afraid to experiment with different versions to see which works best for your task. Furthermore, there exist many iterations of BERT such as RoBERTa and DistilBERT which come with their own unique advantages.
+
+Using BERT is like driving a high-performance car—it takes some practice to handle, but once you get the hang of it, you'll be able to navigate the tricky terrain of NLP with ease!
