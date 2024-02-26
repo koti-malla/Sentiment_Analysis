@@ -67,6 +67,30 @@ Alright, by now you've got your hands on the steering wheel, so how do you ensur
 Optimizing a BERT model is like tuning a musical instrument. You've got to tweak the right parameters and techniques to hit the perfect note. And with these techniques, you'll be playing sweet music with BERT in no time!
 
 
-**RoBerta**
+##RoBerta
+
+* The RoBERTa model was proposed in RoBERTa: A Robustly Optimized BERT Pretraining Approach by Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, Veselin Stoyanov. It is based on Google’s BERT model released in 2018.
+
+* It builds on BERT and modifies key hyperparameters, removing the next-sentence pretraining objective and training with much larger mini-batches and learning rates.
+
+* The abstract from the paper is the following:
+
+Language model pretraining has led to significant performance gains but careful comparison between different approaches is challenging. Training is computationally expensive, often done on private datasets of different sizes, and, as we will show, hyperparameter choices have significant impact on the final results. We present a replication study of BERT pretraining (Devlin et al., 2019) that carefully measures the impact of many key hyperparameters and training data size. We find that BERT was significantly undertrained, and can match or exceed the performance of every model published after it. Our best model achieves state-of-the-art results on GLUE, RACE and SQuAD. These results highlight the importance of previously overlooked design choices, and raise questions about the source of recently reported improvements. We release our models and code.
+
+This model was contributed by julien-c. The original code can be found here.
+
+Usage tips
+This implementation is the same as BertModel with a tiny embeddings tweak as well as a setup for Roberta pretrained models.
+
+RoBERTa has the same architecture as BERT, but uses a byte-level BPE as a tokenizer (same as GPT-2) and uses a different pretraining scheme.
+
+RoBERTa doesn’t have token_type_ids, you don’t need to indicate which token belongs to which segment. Just separate your segments with the separation token tokenizer.sep_token (or </s>)
+
+Same as BERT with better pretraining tricks:
+
+dynamic masking: tokens are masked differently at each epoch, whereas BERT does it once and for all
+together to reach 512 tokens (so the sentences are in an order than may span several documents)
+train with larger batches
+use BPE with bytes as a subunit and not characters (because of unicode characters)
 
 
