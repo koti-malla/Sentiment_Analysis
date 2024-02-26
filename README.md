@@ -67,7 +67,7 @@ Alright, by now you've got your hands on the steering wheel, so how do you ensur
 Optimizing a BERT model is like tuning a musical instrument. You've got to tweak the right parameters and techniques to hit the perfect note. And with these techniques, you'll be playing sweet music with BERT in no time!
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________
-## RoBerta
+## RoBERTa
 
 * The RoBERTa model was proposed in RoBERTa: A Robustly Optimized BERT Pretraining Approach by Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, Veselin Stoyanov. It is based on Google’s BERT model released in 2018.
 
@@ -93,4 +93,9 @@ together to reach 512 tokens (so the sentences are in an order than may span sev
 train with larger batches
 use BPE with bytes as a subunit and not characters (because of unicode characters)
 
+
+
+download model weights from Here : https://drive.google.com/drive/folders/1RZYug23-E4Wfpx2b1nIa83b7PMX1v7nj?usp=drive_link  (BERT)
+
+download model weights from Here : https://drive.google.com/drive/folders/12K8graWAMexPVeq6E9Wp6OlnglrOJ_V4?usp=drive_link (RoBERTa)
 
