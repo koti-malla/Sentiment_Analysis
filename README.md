@@ -97,5 +97,13 @@ use BPE with bytes as a subunit and not characters (because of unicode character
 
 download model weights from Here : https://drive.google.com/drive/folders/1RZYug23-E4Wfpx2b1nIa83b7PMX1v7nj?usp=drive_link  (BERT)
 
-download model weights from Here : https://drive.google.com/drive/folders/12K8graWAMexPVeq6E9Wp6OlnglrOJ_V4?usp=drive_link (RoBERTa)
+model weights from Here : https://drive.google.com/drive/folders/12K8graWAMexPVeq6E9Wp6OlnglrOJ_V4?usp=drive_link (RoBERTa)
+
+
+### web app screenshot 
+
+
+![](images/bv.png)
+
+
 
