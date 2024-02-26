@@ -1,0 +1,4 @@
+flask_ngrok 
+flask_bootstrap
+transformers
+torch
