@@ -66,8 +66,8 @@ Alright, by now you've got your hands on the steering wheel, so how do you ensur
 
 Optimizing a BERT model is like tuning a musical instrument. You've got to tweak the right parameters and techniques to hit the perfect note. And with these techniques, you'll be playing sweet music with BERT in no time!
 
-
-##RoBerta
+____________________________________________________________________________________________________________________________________________________________________________________________________
+## RoBerta
 
 * The RoBERTa model was proposed in RoBERTa: A Robustly Optimized BERT Pretraining Approach by Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, Veselin Stoyanov. It is based on Google’s BERT model released in 2018.
 
