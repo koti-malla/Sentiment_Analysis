@@ -65,3 +65,8 @@ Alright, by now you've got your hands on the steering wheel, so how do you ensur
 * Model Pruning: Here's a technique where less is more. By pruning, or removing, less important connections in the model, you can reduce its size and computational needs without a significant drop in performance. Such changes improve efficiency.
 
 Optimizing a BERT model is like tuning a musical instrument. You've got to tweak the right parameters and techniques to hit the perfect note. And with these techniques, you'll be playing sweet music with BERT in no time!
+
+
+**RoBerta**
+
+
